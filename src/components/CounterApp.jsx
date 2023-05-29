@@ -1,4 +1,5 @@
 import { useState } from 'react'; 
+import PropTypes from 'prop-types';
 import style from './counterapp.module.css';
 
 export default function CounterApp({value = 0}){
@@ -26,3 +27,6 @@ export default function CounterApp({value = 0}){
   </>
 }
 
+CounterApp.propTypes = {
+  value: PropTypes.number.isRequired
+}
