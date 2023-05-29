@@ -1,0 +1,15 @@
+.counter{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 30%;
+  text-align: center;
+  background-color: aliceblue;
+  color: black;
+  font-size: 1em;
+  padding: 1em;
+  padding-top: .3em;
+  border-radius: 1em;
+}
+
+.count{
+  color: green;
+}
